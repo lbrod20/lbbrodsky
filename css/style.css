@@ -119,3 +119,34 @@ footer h1{
     bottom: 1px;
     right: 1px;
 }
+
+.post-ratings-container{
+    display: flex;
+    justify-content: end;
+    padding: 12px 0px;
+}
+
+.post-rating{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.post-rating:not(:last-child){
+    margin-right: 12px;
+}
+
+.post-rating-selected > .post-rating-button,
+.post-rating-selected > .post-rating-count{
+    color: #294122;
+}
+
+.post-rating-button{
+    margin-right: 6px;
+    cursor: grabbing;
+    color: #5555;
+}
+
+.post-rating:not(.post-rating-selected) > .post-rating-button:hover{
+    color: black;
+}
