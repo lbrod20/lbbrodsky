@@ -4,6 +4,7 @@ body{
     background-color: #FEFAE1;
     max-width: 100%;
     font-family: Sarabun;
+    cursor: pointer;
 }
 
 header{
@@ -43,6 +44,8 @@ h1{
 main{
     max-width: 65%;
     background-color:#E1BA75;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     margin-left: 25%;
     padding: 3%;
     display: flex;
@@ -83,6 +86,7 @@ a{
 a:hover{
     background-color: #5F6C37;
     opacity: .5;
+    cursor: grabbing;
 }
 
 img{
